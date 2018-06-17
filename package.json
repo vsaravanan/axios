@@ -1,9 +1,9 @@
 {
-  "name": "react-kendo-grid",
+  "name": "axios",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/new",
+  "homepage": "https://github.com/vsaravanan/axios.git",
   "main": "src/index.js",
   "dependencies": {
     "@progress/kendo-data-query": "^1.3.1",
