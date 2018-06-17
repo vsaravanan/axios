@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import axios from 'axios';
+//import axios from 'axios';
 
+import API from './api';
 
 export default class PersonList extends React.Component {
   state = {
@@ -15,7 +16,7 @@ export default class PersonList extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    axios.delete(`https://jsonplaceholder.typicode.com/users/${this.state.id}`)
+    API.delete(`users/${this.state.id}`)
       .then(res => {
         console.log(res);
         console.log(res.data);
